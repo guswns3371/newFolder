@@ -1,0 +1,45 @@
+/*section*/
+.section{
+    background-color: wheat;
+    padding-left: 5%;
+    width: 60%;
+    float: left;
+}
+/*article*/
+.article{
+    background-color: blueviolet;
+    width: 95%;
+    margin: auto;
+}
+.heading{
+    background-color: #008181 ;
+    font-size: 20px;
+    padding: 10px;
+}
+.title{
+    padding: 3px 2px 2px;
+    font-size: 30px;
+}
+.head{
+    padding: 5px 2px 2px;
+    float:right;
+}
+
+.content{
+    background-color: #7b8688;
+}
+.content video{
+    width: 700px;
+    height: 400px;
+}
+/*aside*/
+.aside{
+    background-color: chocolate;
+    padding-top: 74px;
+    float: left;
+    width: 35%;
+}
+.footer{
+    background-color: #cc8739;
+    clear: both;
+}

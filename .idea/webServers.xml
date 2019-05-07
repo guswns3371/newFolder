@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="08bbe4bf-7802-47a9-93b4-4382ad7dbe5b" name="http://192.168.56.1:8080" url="http://192.168.56.1:8080/newFolder">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</project>
