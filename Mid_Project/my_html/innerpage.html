@@ -5,11 +5,15 @@
     <title>InnerPage</title>
     <link rel="import" href="Root.html">
     <link rel="stylesheet" href="../my_css/innerpage.css">
-
+    <script>
+        $(document).ready(function () {
+            $("#header_nav").load("base/header_nav.html");
+            $("#footer").load("base/footer.html");
+        })
+    </script>
 </head>
 <body>
-<script rel="script" src="../my_js/header_nav.js"></script>
-
+<span id="header_nav"></span>
 <section class="section">section
     <article class="article">
         article
@@ -24,7 +28,6 @@
     </article>
 </section>
 <aside class="aside">aside</aside>
-
-<script src="../my_js/footer.js" rel="script"></script>
+<span id="footer"></span>
 </body>
 </html>

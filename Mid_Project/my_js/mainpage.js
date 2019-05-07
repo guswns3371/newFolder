@@ -1,7 +1,7 @@
 {
     let item = document.getElementsByClassName("container");
     let a="";
-    for (let i=0; i<15;i++){
+    for (let i=0; i<10;i++){
         a += "                <div class=\"box\">\n" +
             "                    <a href=\"innerpage.html?article_num="+i+"\">\n" +
             "                        <img src=\"../my_file/icon/userimg.jpg\" alt=\"img\">\n" +
