@@ -3,8 +3,8 @@
     let a="";
     for (let i=0; i<10;i++){
         a += "                <div class=\"box\">\n" +
-            "                    <a href=\"innerpage.html?article_num="+i+"\">\n" +
-            "                        <img src=\"../my_file/icon/userimg.jpg\" alt=\"img\">\n" +
+            "                    <a href=\"/Mid_Project/my_html/innerpage.html?article_num="+i+"\">\n" +
+            "                        <img src=\"/Mid_Project/my_file/icon/userimg.jpg\" alt=\"img\">\n" +
             "                        <div class=\"box_des\">\n" +i+
             "                            ___This is an example of a multi-line ellipsis. We just set the number of lines we want to display before the ellipsis takes\n" +
             "                        </div>\n" +

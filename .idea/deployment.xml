@@ -5,7 +5,7 @@
       <paths name="http://192.168.56.1:8080">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
