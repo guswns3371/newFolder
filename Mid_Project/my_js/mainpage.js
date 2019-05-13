@@ -16,6 +16,7 @@
     }
     item[0].innerHTML = a;
 }
+
 {
     //조회수 시간 랜덤표시
     const  views = document.getElementsByClassName("views");
