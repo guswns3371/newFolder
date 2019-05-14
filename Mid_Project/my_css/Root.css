@@ -14,13 +14,10 @@
     position: fixed;
     display: none;
     overflow-y: scroll;
-    float: left;
-    /*width: 30%;*/
 }
 .section{
     background-color: #cc8739;
     padding-top: 74px;
-    /*width: 70%;*/
 }
 .article{
     background-color: cadetblue;

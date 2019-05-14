@@ -25,19 +25,57 @@
     float:right;
 }
 
-.content{
+.article_content{
     background-color: #7b8688;
 }
-.content video{
-    width: 700px;
-    height: 400px;
+.vidContain{
+    width: 777px;
+    height: 444px;
+    position:relative;
+    display:inline-block;
+}
+.vidContain video{
+    position: absolute;
+    top: 0; left:0;
+    width: 100%; height: 100%;
 }
 /*aside*/
 .aside{
-    background-color: chocolate;
-    padding-top: 74px;
+    background-color: #81574f !important;
+    padding-top: 112px;
     float: left;
     width: 35%;
+}
+.other{
+    background-color: darkkhaki;
+    height: 700px;
+    overflow-y: scroll ;
+}
+.aside_content{
+    background-color: #cc8739;
+
+}
+.aside_content_single{
+    background-color: #7e7e7e;
+}
+.aside_content_single div{
+    display: inline;
+}
+.aside_content_single img{
+    width: 150px;
+    height: 80px;
+    margin: 10px;
+}
+.single_num {
+    background-color: #ffe7bb;
+    height: 80px;
+    padding: 5px;
+}
+.single_desc span{
+    background-color: #abcc8f;
+    height: 80px;
+    padding: 5px;
+    width: 50px;
 }
 .footer{
     background-color: #cc8739;

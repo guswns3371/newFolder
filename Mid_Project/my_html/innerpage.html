@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>InnerPage</title>
     <link rel="import" href="/Mid_Project/my_html/Root.html">
-    <link rel="stylesheet" href="/Mid_Project/my_css/innerpage.css">
-    <link rel="stylesheet" href="/Mid_Project/my_css/Root.css" type="text/css">
+<!--    <link rel="stylesheet" href="/Mid_Project/my_css/Root.css" type="text/css">-->
+    <link rel="stylesheet" href="/Mid_Project/my_css/innerpage.css" type="text/css">
     <script>
         $(document).ready(function () {
             $("#header_nav").load("/Mid_Project/my_html/base/header_nav.html");
@@ -23,12 +23,37 @@
             <span class="head time">10주전</span>
             <span class="head views">1564회</span>
         </div>
-        <div class="content">
-            <video src="" controls ></video>
+        <div class="article_content">
+            <div class="vidContain">
+                <video src="/Mid_Project/my_file/video/vid_1.mp4" controls autoplay></video>
+            </div>
+
         </div>
     </article>
 </section>
-<aside class="aside">aside</aside>
+<aside class="aside">aside
+    <div class="title">올림픽채널 뉴스</div>
+    <div class="other">
+                <table class="aside_content">
+                    <tbody class="aside_content_body">
+<!--                        <tr class="aside_content_single">-->
+<!--                            <td><div class="single_num">1</div></td>-->
+<!--                            <td> -->
+<!--                                <a href="/Mid_Project/my_html/innerpage.html" >-->
+<!--                                    <img src="/Mid_Project/my_file/icon/userimg.jpg" alt="img">-->
+<!--                               </a>-->
+<!--                            </td>-->
+<!--                            <td>-->
+<!--                                <a href="/Mid_Project/my_html/innerpage.html" >-->
+<!--                                <span>[올림픽채널] 과르디올라와 클롭. 리그를 마친 소감 - EPL 인터뷰</span>-->
+<!--                                </a>-->
+<!--                            </td>-->
+<!--                        </tr>-->
+                    </tbody>
+                </table>
+    </div>
+</aside>
 <span id="footer"></span>
 </body>
+<script src="/Mid_Project/my_js/innerpage.js"></script>
 </html>
