@@ -1,51 +1,99 @@
+/*header*/
 .header{
-    background-color: #81574f;
+    background-color: #a06e64;
     height: 100px;
-    padding: 10px 60px 15px 20px;
-
+    padding: 50px 100px 20px;
     display: flex;
 }
 .header #logo{
-    width: 220px;
+    width: 250px;
     height: 100px;
 }
 .header input{
     width: 700px;
-    height: 60px;
+    height: 40px;
     background-color: transparent;
     border-color: #abcc8f;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
     padding: 8px;
-    font-size: 25px;
+    font-size: 23px;
     color: #1b1b1b;
 }
-.header #search_btn{
-    height: 60px;
+.search_form{
+    padding-top: 15px;
+    padding-left: 20px;
 }
-.header .search_form{
-
+.search_div{
+    display: flex;
+    z-index: 3;
 }
+.search_div button{
+    background-color: #abcc8f;
+    border-color: #abcc8f;
+    border-style: none;
+    height: 62px;
+    width: 62px;
+}
+.search_div img{
+    height: 30px;
+    width: 30px;
+}
+/*nav*/
 .nav{
     background-color: #cc8739;
-    height: 50px;
+    height: 70px;
+    padding: 3px 3px 3px 100px;
 }
+.nav ul{
+    display: flex;
+}
+.nav li{
+    list-style: none;
+    padding: 5px 25px 5px 5px;
+    font-size: 20px;
+    font-weight:bold;
+}
+.nav button{
+    font-size: 20px;
+    font-weight:bold;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:visited{color: black}
+#more_nav{
+    display: none;
+    background-color: thistle;
+    height: 500px;
+    width: 100%;
+    position: fixed;
+    padding: 5px 5px 5px 130px;
+}
+/*section*/
 .section{
     background-color: #008181;
     padding: 5px;
     margin: 15px;
-    width: 1000px;
+    width: 950px;
+    height: 1000px;
     float: left;
 }
+/*article*/
 .article{
     background-color: #abcc8f;
 }
+/*aside*/
 .aside{
     background-color: royalblue;
-    width: 450px;
+    padding: 5px;
+    width: 480px;
     margin:15px;
-    float: left
+    height: 500px;
+    float: left;
 }
+/*footer*/
 .footer{
     background-color: #7e7e7e;
     height: 150px;

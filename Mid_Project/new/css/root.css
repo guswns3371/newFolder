@@ -2,3 +2,7 @@ body{
     font-size: 19px;
     background-color: #dfe1e5;
 }
+button{
+    background-color: transparent;
+    border: transparent;
+}

@@ -6,28 +6,47 @@
     <base href="/Mid_Project/new/">
     <link rel="stylesheet" href="css/root.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
-    <script src="js/main.js" rel="script"></script>
+    <script src="js/jquery-3.4.1.min.js" rel="script"></script>
 </head>
 <body>
 <header class="header">
     <img id ="logo" src="file/img/logo.png" alt="logo">
     <form class="search_form">
-        <label>
-            <input type="text" placeholder="Search" title="search">
-            <button title="search button" type="button">
-                <img id="search_btn" src="file/img/search.png" alt="search">
-            </button>
-        </label>
+        <div class="search_div">
+            <label style="display: flex;">
+                <input type="text" placeholder="Search" title="search">
+                <div></div>
+                <button title="search button" type="button">
+                         <img src="file/img/search.png" alt="search">
+                 </button>
+            </label>
+        </div>
     </form>
 </header>
-<nav class="nav">nav</nav>
+
+<nav class="nav">
+    <ul>
+        <li><a href="html/main.html">뉴스</a></li>
+        <li><a href="html/main.html">뮤직</a></li>
+        <li><a href="html/main.html">책</a></li>
+        <li><a href="html/main.html">영화</a></li>
+        <li><a href="html/main.html">동영상</a></li>
+        <li><a href="html/main.html">지도</a></li>
+        <li><button id="more_nav_btn"><span>더보기 </span><img src="file/icon/down_arr.png"></button></li>
+    </ul>
+
+</nav>
+<div id="more_nav">
+    more
+</div>
 <div class="section_aside">
-    <section class="section">section
+    <section class="section">
         <article class="article">article</article>
     </section>
     <aside class="aside">aside</aside>
 </div>
 
 <footer class="footer">footer</footer>
+<script src="js/main.js" rel="script"></script>
 </body>
 </html>
