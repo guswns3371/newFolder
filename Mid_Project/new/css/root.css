@@ -1,8 +1,14 @@
 body{
     font-size: 19px;
     background-color: #dfe1e5;
+    font-family: 함초롬바탕;
 }
 button{
     background-color: transparent;
     border: transparent;
 }
+ a{
+    text-decoration: none;
+    color: black;
+}
+ a:visited{color: black}

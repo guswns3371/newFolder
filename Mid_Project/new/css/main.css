@@ -2,8 +2,9 @@
 .header{
     background-color: #a06e64;
     height: 100px;
+    width: 100%;
     padding: 50px 100px 20px;
-    display: flex;
+    display: inline-flex;
 }
 .header #logo{
     width: 250px;
@@ -43,26 +44,23 @@
 .nav{
     background-color: #cc8739;
     height: 70px;
+    width: 100%;
     padding: 3px 3px 3px 100px;
+    display: inline-flex;
 }
 .nav ul{
-    display: flex;
-}
-.nav li{
+    display: inline-flex;
     list-style: none;
-    padding: 5px 25px 5px 5px;
     font-size: 20px;
     font-weight:bold;
+}
+.nav li{
+    padding: 5px 25px 5px 5px;
 }
 .nav button{
     font-size: 20px;
     font-weight:bold;
 }
-.nav a{
-    text-decoration: none;
-    color: black;
-}
-.nav a:visited{color: black}
 #more_nav{
     display: none;
     background-color: thistle;
@@ -71,6 +69,12 @@
     position: fixed;
     padding: 5px 5px 5px 130px;
 }
+
+/*section_article*/
+.section_aside{
+    padding: 15px;
+    display: inline-flex;
+}
 /*section*/
 .section{
     background-color: #008181;
@@ -78,11 +82,45 @@
     margin: 15px;
     width: 950px;
     height: 1000px;
-    float: left;
 }
 /*article*/
 .article{
-    background-color: #abcc8f;
+    background-color: #b5cc62;
+    border: 1px solid #7b8688;
+    padding-bottom: 15px;
+}
+.article_head{
+    background-color: #80cc47;
+    padding: 10px 10px 10px 30px;
+    border: 0 solid #7b8688;
+    border-bottom-width: 1px;
+}
+.article_head ul{
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+}
+.article_head li{
+    padding: 5px 25px 5px 5px;
+}
+.article_head img{
+    border: 1px #1b1b1b solid;
+    height: 30px;
+    margin: 5px;
+    float:right;
+}
+.news_content{
+    background-color: #00cece;
+    height: 250px;
+}
+.news_content table{
+    width: 100%;
+}
+.news_content th{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7b8688;
+    padding: 25px;
 }
 /*aside*/
 .aside{
@@ -91,16 +129,12 @@
     width: 480px;
     margin:15px;
     height: 500px;
-    float: left;
 }
 /*footer*/
 .footer{
     background-color: #7e7e7e;
     height: 150px;
     clear: both;
-}
-
-/**/
-.section_aside{
-    padding: 15px;
+    width: 100%;
+    display: inline-flex;
 }

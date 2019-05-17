@@ -7,5 +7,4 @@ $("#more_nav_btn").click(function () {
         $("#more_nav_btn").html("<span>더보기 </span><img src=\"file/icon/down_arr.png\">");
         more_nav.style.display = 'none';
     }
-    // more_nav.style.display === 'none' ? more_nav.style.display = 'block' : more_nav.style.display = 'none';
 });
