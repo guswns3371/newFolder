@@ -1,0 +1,58 @@
+.header{
+    background-color: #81574f;
+    height: 100px;
+    padding: 10px 60px 15px 20px;
+
+    display: flex;
+}
+.header #logo{
+    width: 220px;
+    height: 100px;
+}
+.header input{
+    width: 700px;
+    height: 60px;
+    background-color: transparent;
+    border-color: #abcc8f;
+    border-style: solid;
+    border-width: 2px;
+    padding: 8px;
+    font-size: 25px;
+    color: #1b1b1b;
+}
+.header #search_btn{
+    height: 60px;
+}
+.header .search_form{
+
+}
+.nav{
+    background-color: #cc8739;
+    height: 50px;
+}
+.section{
+    background-color: #008181;
+    padding: 5px;
+    margin: 15px;
+    width: 1000px;
+    float: left;
+}
+.article{
+    background-color: #abcc8f;
+}
+.aside{
+    background-color: royalblue;
+    width: 450px;
+    margin:15px;
+    float: left
+}
+.footer{
+    background-color: #7e7e7e;
+    height: 150px;
+    clear: both;
+}
+
+/**/
+.section_aside{
+    padding: 15px;
+}
