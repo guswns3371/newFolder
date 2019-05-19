@@ -107,6 +107,17 @@
     margin: 5px;
     float:right;
 }
+.login_btn{
+    padding: auto;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    height: 70px;
+    width: 100%;
+    background-color: #81574f;
+}
 .content{
     background-color: #5ccec7;
 }

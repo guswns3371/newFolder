@@ -55,7 +55,8 @@ $("#more_nav_btn").click(function () {
     }
 });
 $(".article_head_category").click(function () {
-    // $(this).style.color = 'white'; ??
+    $(this).css({"font-weight":'bold',"color":"white"});
+    $(".article_head_category").not(this).css({"font-weight":'normal',"color":"black"})
     const title = $(this).text();
     const title_eng = $(this).attr("title");
     //ul_content
@@ -82,4 +83,8 @@ $(".article_head_category").click(function () {
         // td_desc[i-1].innerHTML = i+title+" []명소 다니며 죽은 척하는 여자";
         $(this).closest(".article").find(".td_desc").toArray()[i-1].innerHTML = i+title+" ***명소 다니며 죽은 척하는 여자";
     }
+});
+
+$(document).on("click",'a[href="html/main.html#"]',function (e) {
+        e.preventDefault();
 });
