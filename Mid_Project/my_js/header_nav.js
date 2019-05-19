@@ -17,7 +17,7 @@ var str = "<header class=\"header\">\n" +
     "        </div>\n" +
     "        <div class=\"user_control\">\n" +
     "            <a id=\"user_icon\" href=\"\" title=\"user account\">\n" +
-    "                <img src=\"../my_file/icon/userimg.jpg\" alt=\"user\" >\n" +
+    "                <img src=\"../my_file/icon/userimg.food (14).jpg\" alt=\"user\" >\n" +
     "            </a>\n" +
     "        </div>\n" +
     "\n" +

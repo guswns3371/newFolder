@@ -6,7 +6,7 @@
             "                            <td><div class=\"single_num\">"+i+"</div></td>\n" +
             "                            <td> \n" +
             "                                <a href=\"/Mid_Project/my_html/innerpage.html?innerNum="+i+"\" >\n" +
-            "                                    <img src=\"/Mid_Project/my_file/icon/userimg.jpg\" alt=\"img\">\n" +
+            "                                    <img src=\"/Mid_Project/my_file/icon/userimg.food (14).jpg\" alt=\"img\">\n" +
             "                               </a>\n" +
             "                            </td>\n" +
             "                            <td>\n" +
