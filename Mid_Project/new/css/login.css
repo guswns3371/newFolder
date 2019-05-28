@@ -3,7 +3,7 @@
     background-color: #cc8739;
     height: 168px;
     padding: 62px 0 0;
-    width: 768px;
+    width: 600px;
     margin: 0 auto;
 }
 .header img{
@@ -15,7 +15,7 @@
 /*section*/
 .section{
     background-color: #abcc8f;
-    width: 768px;
+    width: 600px;
     margin: 0 auto;
     padding-bottom: 50px;
     min-height: 185px;
@@ -23,7 +23,7 @@
 
 .article{
     background-color: #81574f;
-    width: 600px;
+    width: 500px;
     margin: 0 auto;
     padding-bottom: 30px;
 }
