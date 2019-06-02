@@ -56,13 +56,14 @@
     margin: -2px 0 12px;
     color: #ff1616;
 }
-.form_login_btn button{
+.form_login_btn input{
     background-color: #008181;
     width: 100%;
     height: 60px;
     text-align: center;
     font-size: 20px;
     color: white;
+    border: none;
 }
 /*footer*/
 .footer{
