@@ -53,3 +53,32 @@ html,body{
 .table th{
 	border-right : 1px solid black;
 }
+.summary{
+	display : inline;
+	color : blue;
+}
+.details{
+	padding : 30px;
+	border : 1px solid black;
+}
+.question{
+	padding : 10px;
+	border : 1px solid black;
+}
+.question li{
+	margin-bottom : 10px;
+}
+.input{
+	text-align : center;
+}
+.below li{
+	display : inline-block;
+	margin-right : 5%;
+	margin-left : 5%;
+}
+.inputblock{
+	float : left;
+}
+.button{
+	float : right;
+}

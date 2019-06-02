@@ -4,16 +4,6 @@
 	<meta charset="UTF-8">
 	<title>Help</title>
 	<link rel="stylesheet" href="/Mid_Project/new/css/info_css.css" type="text/css">
-	<style>
-		.input{
-			text-align : center;
-		}
-		.below li{
-			display : inline-block;
-			margin-right : 5%;
-			margin-left : 5%;
-		}
-	</style>
 </head>
 <body>
 <a class="arrow" href="#top">
@@ -38,8 +28,9 @@
 	<article>
 		<div class="input">
 			<h2>어떻게 도와드릴까요?</h2>
-			<form class>
+			<form class = "inputblock">
 				<input type="keyword" placeholder="궁금하신 점을 적어주세요." maxlength = "100" size = "100">
+				<button class="button" type="sunmit" value="submit">전송</button>
 			</form>
 			<ul class="below">
 				<li>hot question1
@@ -50,19 +41,46 @@
 		</div>
 		<div>
 			<h2>자주 하는 질문</h2>
-			<p>
-			<a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)"> 
-			제목(이걸 누르면 열기,닫기가 됩니다.)
-			</a><div style="DISPLAY: none">
-				내용
-			</div>
-			</p>
-			<p><a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)"> 
-			제목(이걸 누르면 열기,닫기가 됩니다.)
-			</a><div style="DISPLAY: none">
-				내용
-			</div>
-			</p>
+			<details class="question">
+				<summary>Question Topic1</summary>
+				<ul>
+					<li>Question1 - click to search
+					<li>Question2
+					<li>Question3
+				</ul>
+			</details>
+			<details class="question">
+				<summary>Question Topic2</summary>
+				<ul>
+					<li>Question1 - click to search
+					<li>Question2
+					<li>Question3
+				</ul>
+			</details>
+			<details class="question">
+				<summary>Question Topic3</summary>
+				<ul>
+					<li>Question1 - click to search
+					<li>Question2
+					<li>Question3
+				</ul>
+			</details>
+			<details class="question">
+				<summary>Question Topic4</summary>
+				<ul>
+					<li>Question1 - click to search
+					<li>Question2
+					<li>Question3
+				</ul>
+			</details>
+			<details class="question">
+				<summary>Question Topic5</summary>
+				<ul>
+					<li>Question1 - click to search
+					<li>Question2
+					<li>Question3
+				</ul>
+			</details>
 		</div>
 	</article>
 </section>
