@@ -57,8 +57,8 @@ function MoreNavBtn(obj){
 function ArticleHead(obj){
     // obj.style.fontWeight='bold';
     // obj.style.color='white';
-    // const  title = obj.text;
-    // const  title_eng = obj.title;
+    const  title = obj.text;
+    const  title_eng = obj.title;
 
     //ul_content
     let ul_content = document.getElementById("ul_content");
