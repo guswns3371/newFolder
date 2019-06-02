@@ -5,12 +5,12 @@
         a +="                        <tr class=\"aside_content_single\">\n" +
             "                            <td><div class=\"single_num\">"+i+"</div></td>\n" +
             "                            <td> \n" +
-            "                                <a href=\"/Mid_Project/my_html/innerpage.html?innerNum="+i+"\" >\n" +
-            "                                    <img src=\"/Mid_Project/my_file/icon/userimg.food (14).jpg\" alt=\"img\">\n" +
+            "                                <a href="+i+"\"/Mid_Project/old/my_htmlhtml/innerpage.html?innerNum=\" >\n" +
+            "                                    <img src=\"/Mid_Project/old/my_file/icon/userimg.food alt=\"img\">\n" +
             "                               </a>\n" +
             "                            </td>\n" +
             "                            <td>\n" +
-            "                                <a href=\"/Mid_Project/my_html/innerpage.html?innerNum="+i+"\"  >\n" +
+            "                                <a href="+i+"\"/Mid_Project/old/my_htmlhtml/innerpage.html?innerNum=\"  >\n" +
             "                                <span>[올림픽채널] 과르디올라와 클롭. 리그를 마친 소감 - EPL 인터뷰</span>\n" +
             "                                </a>\n" +
             "                            </td>\n" +

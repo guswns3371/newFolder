@@ -32,7 +32,7 @@
         <li><a href="html/main.html">영화</a></li>
         <li><a href="html/main.html">동영상</a></li>
         <li><a href="html/main.html">지도</a></li>
-        <li><button id="more_nav_btn"><span>더보기 </span><img src="file/icon/down_arr.png"></button></li>
+        <li><a  id="more_nav_btn" onclick="MoreNavBtn(this)"><span>더보기</span><img src="file/icon/down_arr.png"></a></li>
     </ul>
 
 </nav>
@@ -78,15 +78,15 @@
         <article class="article">
             <div class="heading" id="article_item">
                 <ul>
-                    <li><a class="article_head_category" href="html/main.html#" title="living" style="font-weight: bold;color: white">리빙</a></li>
-                    <li><a class="article_head_category" href="html/main.html#" title="food">푸드</a></li>
-                    <li><a class="article_head_category" href="html/main.html#" title="sports">스포츠</a></li>
-                    <li><a class="article_head_category" href="html/main.html#" title="car">자동차</a></li>
-                    <li><a class="article_head_category" href="html/main.html#" title="beauty">뷰티</a></li>
-                    <li><a class="article_head_category" href="html/main.html#" title="well_being">건강</a></li>
-                    <li><a class="article_head_category" href="html/main.html#" title="music">뮤직</a></li>
-                    <li><a class="article_head_category" href="html/main.html#" title="movie">영화</a></li>
-                    <li><a class="article_head_category" href="html/main.html#" title="travel">여행</a></li>
+                    <li><a onclick="ArticleHead(this)" class="article_head_category"  title="living" style="font-weight: bold;color: white">리빙</a></li>
+                    <li><a onclick="ArticleHead(this)" class="article_head_category"  title="food">푸드</a></li>
+                    <li><a onclick="ArticleHead(this)" class="article_head_category"  title="sports">스포츠</a></li>
+                    <li><a onclick="ArticleHead(this)" class="article_head_category"  title="car">자동차</a></li>
+                    <li><a onclick="ArticleHead(this)" class="article_head_category"  title="beauty">뷰티</a></li>
+                    <li><a onclick="ArticleHead(this)" class="article_head_category" title="well_being">건강</a></li>
+                    <li><a onclick="ArticleHead(this)" class="article_head_category"  title="music">뮤직</a></li>
+                    <li><a onclick="ArticleHead(this)" class="article_head_category"  title="movie">영화</a></li>
+                    <li><a onclick="ArticleHead(this)" class="article_head_category"  title="travel">여행</a></li>
                 </ul>
                 <img src="file/icon/down_arr.png">
                 <img src="file/icon/up_arr.png">
@@ -110,7 +110,7 @@
     <aside class="aside">
         <div class="login">
                 <div class="heading">
-                    <a class="login_btn" href="html/login_logout/login.html" role="button" >로그인</a>
+                    <button class="login_btn" onclick="location.href='html/login_logout/login.html'" >로그인</button>
                     <a href="html/main.html"><span>아이디·비밀번호 찾기</span></a>
                     <a href="html/main.html"><span style="float:right;">회원가입</span></a>
                  </div>

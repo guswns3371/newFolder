@@ -3,7 +3,7 @@
     background-color: #a06e64;
     height: 100px;
     width: 100%;
-    padding: 50px 0 20px 200px;
+    padding: 50px 0 20px;
     display: inline-flex;
 }
 .header #logo{
@@ -11,14 +11,14 @@
     height: 100px;
 }
 .header input{
-    width: 700px;
-    height: 40px;
+    width: 600px;
+    height: 30px;
     background-color: transparent;
     border-color: #abcc8f;
     border-style: solid;
     border-width: 3px;
     padding: 8px;
-    font-size: 23px;
+    font-size: 20px;
     color: #1b1b1b;
 }
 .search_form{
@@ -33,32 +33,36 @@
     background-color: #abcc8f;
     border-color: #abcc8f;
     border-style: none;
-    height: 62px;
-    width: 62px;
+    height: 52px;
+    width: 52px;
 }
 .search_div img{
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
 }
 /*nav*/
 .nav{
     background-color: #cc8739;
-    height: 70px;
+    height: 55px;
     width: 100%;
-    padding: 3px 0 3px 200px;
+    padding: 3px 0 3px;
     display: inline-flex;
 }
 .nav ul{
     display: inline-flex;
-    font-size: 20px;
+    font-size: 17px;
     font-weight:bold;
 }
 .nav li{
     padding: 5px 25px 5px 5px;
 }
-.nav button{
-    font-size: 20px;
-    font-weight:bold;
+#more_nav_btn{
+    cursor: pointer;
+}
+#more_nav_btn img{
+    margin-left: 15px;
+    width: 10px;
+    height: 10px;
 }
 #more_nav{
     display: none;
@@ -71,15 +75,15 @@
 
 /*section_article*/
 .section_aside{
-    padding: 15px 0 15px 200px;
+    padding: 15px 0 15px 0;
     display: inline-flex;
 }
 /*section*/
 .section{
     background-color: #008181;
     padding: 5px;
-    margin: 15px;
-    width: 950px;
+    margin: 10px;
+    width: 750px;
     /*height: 1000px;*/
 }
 /*article*/
@@ -87,6 +91,7 @@
     background-color: #b5cc62;
     border: 1px solid #7b8688;
     padding-bottom: 15px;
+    width: 750px;
 }
 .heading{
     background-color: #80cc47;
@@ -99,24 +104,13 @@
     margin: 0;
 }
 .heading li{
-    padding: 5px 25px 5px 5px;
+    padding: 5px 10px 5px 5px;
 }
 .heading img{
     border: 1px #1b1b1b solid;
-    height: 30px;
+    height: 20px;
     margin: 5px;
     float:right;
-}
-.login_btn{
-    padding: auto;
-    padding-top: 20px;
-    margin-bottom: 15px;
-    text-align: center;
-    font-size: 25px;
-    display: block;
-    height: 70px;
-    width: 100%;
-    background-color: #81574f;
 }
 .content{
     background-color: #5ccec7;
@@ -128,7 +122,10 @@
     border-style: solid;
     border-width: 1px;
     border-color: #7b8688;
-    padding: 25px;
+    padding: 15px;
+}
+.article_head_category{
+    cursor: pointer;
 }
 .li_title{
     background-color: #cc8739;
@@ -137,42 +134,43 @@
     margin-right: 14px;
     margin-bottom: 19px;
     padding: 23px 6px 0 18px;
-    width: 142px;
-    height: 162px;
+    width: 100px;
+    height: 130px;
 }
 .li_default{
     /*position: relative;*/
     float: left;
     margin-right: 14px;
     margin-bottom: 19px;
-    width: 166px;
-    height: 185px;
+    width: 120px;
+    height: 153px;
 }
 .td_img img{
-    width: 166px;
-    height: 108px;
+    width: 120px;
+    height: 90px;
 }
 .td_desc{
     padding: 8px;
-    font-size: 17px;
+    font-size: 15px;
 }
 /*aside*/
 .aside{
     background-color: royalblue;
-    padding: 20px;
-    width: 500px;
-    margin:15px;
+    padding: 5px;
+    width: 350px;
+    margin:10px;
     /*height: 500px;*/
 }
 .login{
     background-color: #cc8739;
 }
-.login button{
+.login_btn{
     background-color: #008181;
-    margin-bottom: 30px;
-    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     width: 100%;
     height: 60px;
+    text-align: center;
     font-size: 20px;
     color: white;
 }
@@ -182,22 +180,22 @@
 }
 .shopping .li_default{
     background-color: #008181;
-    width: 130px;
+    width: 80px;
 }
-.shopping .td_img img{
-    width: 130px;
-    height: 120px;
+ .td_img_shop img{
+    width: 80px;
+    height: 80px;
 }
-.shopping .td_desc{
+ .td_desc_shop{
     padding: 8px;
-    font-size: 15px;
+    font-size: 13px;
 }
 /*footer*/
 .footer{
     background-color: #7e7e7e;
     height: 150px;
     clear: both;
-    padding: 15px 0 15px 200px;
+    padding: 15px 0 15px ;
     width: 100%;
     display: inline-flex;
 }
