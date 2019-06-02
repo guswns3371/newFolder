@@ -4,3 +4,7 @@
     padding:12px;
     height:20px;
 }
+details img{
+    width: 5px;
+    height: 5px;
+}
