@@ -1,9 +1,9 @@
 /*header*/
 .header{
-    background-color: #cc8739;
+    background-color: #dfe1e5;
     height: 168px;
-    padding: 62px 0 0;
-    width: 500px;
+    padding: 15px 10px 10px 10px;
+    width: 550px;
     margin: 0 auto;
 }
 .header img{
@@ -14,15 +14,15 @@
 
 /*section*/
 .section{
-    background-color: #abcc8f;
+    background-color: #dfe1e5;
     width: 500px;
-    margin: 0 auto;
-    padding-bottom: 50px;
+    margin: 40px auto 0;
+    padding-bottom: 40px;
     min-height: 185px;
 }
 
 .article{
-    background-color: #81574f;
+    background-color: #dfe1e5;
     width: 400px;
     margin: 0 auto;
     padding-bottom: 30px;
@@ -66,9 +66,13 @@
 }
 /*footer*/
 .footer{
-    background-color: cornflowerblue;
+    background-color: #dfe1e5;
     bottom: 0;
     width: 100%;
-    padding: 15px 0;
     text-align: center;
+}
+.footer li{
+    display: inline-flex;
+    padding-right: 40px;
+    border-right: 1px solid #7b8688;
 }

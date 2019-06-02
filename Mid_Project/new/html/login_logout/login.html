@@ -15,11 +15,9 @@
         <img src="file/img/logo.png">
     </a>
 </header>
-<section class="section">section
-    <article class="article">article
-        <form id="guswnsLogin" name="guswnsLogin" target="_top" autocomplete="off" action="html/main.html" onsubmit="return confirmValidate();">
-            <fieldset class="form_login">
-                <legend>로그인</legend>
+<section class="section">
+    <article class="article">
+        <form id="guswnsLogin" method="post" name="guswnsLogin" target="_top" autocomplete="off" action="html/main.html" onsubmit="return confirmValidate();">
                 <div class="id_area">
                     <div class="input_row">
                         <input type="text" id="id" name="id" placeholder="아이디" class="int" maxlength="41" value="">
@@ -38,12 +36,16 @@
                 <div class="form_login_btn">
                     <button type="submit">로그인</button>
                 </div>
-            </fieldset>
         </form>
     </article>
 </section>
 <footer class="footer">
-    footer
+    <ul>
+        <li><a href="/Mid_Project/new/html/inform.html">정보</a></li>
+        <li><a href="/Mid_Project/new/html/terms.html">이용약관</a></li>
+        <li><a href="">저작권</a></li>
+        <li><a href="">도움말</a></li>
+    </ul>
 </footer>
 
 <script src="js/login.js" rel="script"></script>

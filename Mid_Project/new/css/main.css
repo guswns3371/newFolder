@@ -1,6 +1,6 @@
 /*header*/
 .header{
-    background-color: #a06e64;
+    background-color: #ffffff;
     height: 100px;
     width: 100%;
     padding: 50px 0 20px;
@@ -42,10 +42,10 @@
 }
 /*nav*/
 .nav{
-    background-color: #cc8739;
+    border-top: 1px solid #f1f3f6;
+    background-color: #ffffff;
     height: 55px;
     width: 100%;
-    padding: 3px 0 3px;
     display: inline-flex;
 }
 .nav ul{
@@ -65,39 +65,47 @@
     height: 10px;
 }
 #more_nav{
+    font-size: 13px;
     display: none;
-    background-color: thistle;
-    height: 500px;
+    background-color: #ffffff;
+    border: 1px solid #7b8688;
     width: 100%;
     position: absolute;
-    padding: 5px 0 5px 130px;
+    padding: 55px 10px 55px 0;
+}
+.more_nav_content{
+    display: inline-flex;
+    margin-right: 20px;
+    border-left: 1px solid #7b8688;
+}
+.more_nav_content li{
+    padding: 10px 20px 10px;
 }
 
 /*section_article*/
 .section_aside{
-    padding: 15px 0 15px 0;
+    margin:15px 15px 15px 50px;
     display: inline-flex;
 }
 /*section*/
 .section{
-    background-color: #008181;
+    background-color: #ffffff;
     padding: 5px;
     margin: 10px;
     width: 750px;
+    border: #7b8688 solid 1px;
     /*height: 1000px;*/
 }
 /*article*/
 .article{
-    background-color: #b5cc62;
-    border: 1px solid #7b8688;
+    background-color: #ffffff;
     padding-bottom: 15px;
     width: 750px;
 }
 .heading{
-    background-color: #80cc47;
+    background-color: #ffffff;
     padding: 10px 10px 10px 30px;
-    border: 0 solid #7b8688;
-    border-bottom-width: 1px;
+    border: 1px solid #7b8688;
 }
 .heading ul{
     display: inline-flex;
@@ -113,7 +121,7 @@
     float:right;
 }
 .content{
-    background-color: #5ccec7;
+    background-color: #ffffff;
 }
 .content table{
     width: 100%;
@@ -127,6 +135,7 @@
 .article_head_category{
     cursor: pointer;
 }
+
 .li_title{
     background-color: #cc8739;
     /*position: relative;*/
@@ -153,16 +162,18 @@
     padding: 8px;
     font-size: 15px;
 }
+
 /*aside*/
 .aside{
-    background-color: royalblue;
+    background-color: #ffffff;
+    border: 1px solid #7b8688;
     padding: 5px;
     width: 350px;
     margin:10px;
     /*height: 500px;*/
 }
 .login{
-    background-color: #cc8739;
+    background-color: #ffffff;
 }
 .login_btn{
     background-color: #008181;
@@ -179,7 +190,7 @@
     margin-top: 20px;
 }
 .shopping .li_default{
-    background-color: #008181;
+    background-color: #ffffff;
     width: 80px;
 }
  .td_img_shop img{
@@ -192,10 +203,12 @@
 }
 /*footer*/
 .footer{
-    background-color: #7e7e7e;
-    height: 150px;
+    background-color: #ffffff;
     clear: both;
     padding: 15px 0 15px ;
     width: 100%;
+}
+.footer li{
     display: inline-flex;
+    padding-right: 40px;
 }

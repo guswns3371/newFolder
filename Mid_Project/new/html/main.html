@@ -11,12 +11,12 @@
 <body>
 <header class="header">
     <img id ="logo" src="file/img/logo.png" alt="logo">
-    <form class="search_form">
+    <form class="search_form" method="get" action="html/main.html">
         <div class="search_div">
-            <label style="display: flex;">
-                <input type="text" placeholder="Search" title="search">
+            <label for="topSearch" style="display: flex;">
+                <input type="text" id="topSearch" name="topSearch" placeholder="Search" title="search">
                 <div></div>
-                <button title="search button" type="button">
+                <button title="search button" type="submit">
                          <img src="file/img/search.png" alt="search">
                  </button>
             </label>
@@ -37,38 +37,77 @@
 
 </nav>
 <div id="more_nav">
-    more
+    <div class="more_nav_content">
+        <ul>
+            <li>ㄱ-ㄷ</li>
+            <li><a href="html/main.html#">가계부</a></li>
+            <li><a href="html/main.html#">날씨</a></li>
+            <li><a href="html/main.html#">뉴스</a></li>
+            <li><a href="html/main.html#">데이터랩</a></li>
+        </ul>
+    </div>
+    <div class="more_nav_content">
+        <ul>
+            <li>ㄹ-ㅅ</li>
+            <li><a href="html/main.html#">만화</a></li>
+            <li><a href="html/main.html#">메모</a></li>
+            <li><a href="html/main.html#">뮤직</a></li>
+            <li><a href="html/main.html#">부동산</a></li>
+            <li><a href="html/main.html#">밴드</a></li>
+        </ul>
+    </div>
+    <div class="more_nav_content">
+        <ul>
+            <li>ㅇ-ㅈ</li>
+            <li><a href="html/main.html#">영화</a></li>
+            <li><a href="html/main.html#">오디오클립</a></li>
+            <li><a href="html/main.html#">오피스</a></li>
+            <li><a href="html/main.html#">자동차</a></li>
+            <li><a href="html/main.html#">주소록</a></li>
+        </ul>
+    </div>
+    <div class="more_nav_content">
+        <ul>
+            <li>ㅊ-ㅎ</li>
+            <li><a href="html/main.html#">책</a></li>
+            <li><a href="html/main.html#">캘린더</a></li>
+            <li><a href="html/main.html#">항공권</a></li>
+            <li><a href="html/main.html#">호텔</a></li>
+        </ul>
+    </div>
+    <div class="more_nav_content">
+        <ul>
+            <li>A-Z</li>
+            <li><a href="html/main.html#">PC게임</a></li>
+            <li><a href="html/main.html#">TV연예</a></li>
+            <li><a href="html/main.html#">LIVE</a></li>
+            <li><a href="html/main.html#">PODCAST</a></li>
+        </ul>
+    </div>
+    <div class="more_nav_content">
+        <ul>
+            <li>사전</li>
+            <li><a href="html/main.html#">국어사전</a></li>
+            <li><a href="html/main.html#">영어사전</a></li>
+            <li><a href="html/main.html#">일본어사전</a></li>
+            <li><a href="html/main.html#">중국어사전</a></li>
+            <li><a href="html/main.html#">한자사전</a></li>
+        </ul>
+    </div>
+
 </div>
 <div class="section_aside">
     <section class="section">
-        <article class="article">article
+        <article class="article">
             <div class="heading">뉴스스탠드</div>
             <div class="content">
                 <table>
                     <tbody>
                         <tr class="news_stand">
-<!--                            <th><a href=""><img src="file/img/news_logo%20(4).png"></a></th>-->
-<!--                            <th><a href=""><img src="file/img/news_logo%20(5).png"></a></th>-->
-<!--                            <th><a href=""><img src="file/img/news_logo%20(6).png"></a></th>-->
-<!--                            <th><a href=""><img src="file/img/news_logo%20(7).png"></a></th>-->
-<!--                            <th><a href=""><img src="file/img/news_logo%20(8).png"></a></th>-->
-<!--                            <th><a href=""><img src="file/img/news_logo%20(9).png"></a></th>-->
                         </tr>
                         <tr class="news_stand">
-<!--                            <th><a href=""><img src="file/img/news_logo%20(10).png"></a></th>-->
-<!--                            <th><a href=""><img src="file/img/news_logo%20(11).png"></a></th>-->
-<!--                            <th><a href=""><img src="file/img/news_logo%20(12).png"></a></th>-->
-<!--                            <th><a href=""><img src="file/img/news_logo%20(13).png"></a></th>-->
-<!--                            <th><a href=""><img src="file/img/news_logo%20(14).png"></a></th>-->
-<!--                            <th><a href=""><img src="file/img/news_logo%20(15).png"></a></th>-->
                         </tr>
                         <tr class="news_stand">
-<!--                            <th><a href=""><img src="file/img/news_logo%20(16).png"></a></th>-->
-<!--                            <th><a href=""><img src="file/img/news_logo%20(17).png"></a></th>-->
-<!--                            <th><a href=""><img src="file/img/news_logo%20(18).png"></a></th>-->
-<!--                            <th><a href=""><img src="file/img/news_logo%20(19).png"></a></th>-->
-<!--                            <th><a href=""><img src="file/img/news_logo%20(1).png"></a></th>-->
-<!--                            <th><a href=""><img src="file/img/news_logo%20(2).png"></a></th>-->
                         </tr>
                     </tbody>
                 </table>
@@ -78,7 +117,7 @@
         <article class="article">
             <div class="heading" id="article_item">
                 <ul>
-                    <li><a onclick="ArticleHead(this)" class="article_head_category"  title="living" style="font-weight: bold;color: white">리빙</a></li>
+                    <li><a onclick="ArticleHead(this)" class="article_head_category"  title="living">리빙</a></li>
                     <li><a onclick="ArticleHead(this)" class="article_head_category"  title="food">푸드</a></li>
                     <li><a onclick="ArticleHead(this)" class="article_head_category"  title="sports">스포츠</a></li>
                     <li><a onclick="ArticleHead(this)" class="article_head_category"  title="car">자동차</a></li>
@@ -88,21 +127,11 @@
                     <li><a onclick="ArticleHead(this)" class="article_head_category"  title="movie">영화</a></li>
                     <li><a onclick="ArticleHead(this)" class="article_head_category"  title="travel">여행</a></li>
                 </ul>
-                <img src="file/icon/down_arr.png">
-                <img src="file/icon/up_arr.png">
+<!--                <img src="file/icon/down_arr.png">-->
+<!--                <img src="file/icon/up_arr.png">-->
             </div>
             <div class="content">
-                <ul id="ul_content">
-<!--                    <li class="li_title">-->
-<!--                        <span class="td_title">리빙</span>-->
-<!--                    </li>-->
-<!--                    <li class="li_default">-->
-<!--                        <a href="html/main.html">-->
-<!--                        <span class="td_img"><img src="file/img/td_img%20(3).food (14).jpg).food (14).jpg"></span>-->
-<!--                        <span class="td_desc"></span>-->
-<!--                        </a>-->
-<!--                    </li>-->
-                </ul>
+                <ul id="ul_content"></ul>
             </div>
         </article>
     </section>
@@ -120,9 +149,9 @@
             <div class="heading">
                 쇼핑
                 <ul style="float:right;">
-                    <li><a href="html/main.html">실시간</a></li>
-                    <li><a href="html/main.html">실시간</a></li>
-                    <li><a href="html/main.html">실시간</a></li>
+                    <li><a href="html/main.html">실시간1</a></li>
+                    <li><a href="html/main.html">실시간2</a></li>
+                    <li><a href="html/main.html">실시간3</a></li>
                 </ul>
             </div>
             <div class="content">
@@ -133,7 +162,14 @@
     </aside>
 </div>
 
-<footer class="footer">footer</footer>
+<footer class="footer">
+    <ul>
+        <li><a href="/Mid_Project/new/html/inform.html">정보</a></li>
+        <li><a href="/Mid_Project/new/html/terms.html">이용약관</a></li>
+        <li><a href="">저작권</a></li>
+        <li><a href="">도움말</a></li>
+    </ul>
+</footer>
 <script src="js/main.js" rel="script"></script>
 </body>
 </html>

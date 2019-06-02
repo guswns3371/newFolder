@@ -29,7 +29,7 @@
     let td_desc = document.getElementsByClassName("td_desc");
     for (let i =1; i <= td_img.length; i++){
         td_img[i-1].innerHTML= "<img src=\"file/img/main/living/living%20("+i+").jpg\">"
-        td_desc[i-1].innerHTML = i+" 리빙 웹프로그래밍 프로젝트";
+        td_desc[i-1].innerHTML = i+".  리빙 관련기사입니다";
     }
 
     //shopping_ul
@@ -69,7 +69,7 @@ function ArticleHead(obj){
         b += "                    <li class=\"li_default\">\n" +
             "                        <a href=\"html/main.html\">\n" +
             "                        <span class=\"td_img\"><img src=\"file/img/main/"+title_eng+"/"+title_eng+"%20("+i+").jpg\"></span>\n" +
-            "                            <span class=\"td_desc\">"+i+title+" 웹프로그래밍 프로젝트</span>\n" +
+            "                            <span class=\"td_desc\">"+i+". "+title+" 관련 기사입니다</span>\n" +
             "                        </a>\n" +
             "                    </li>";
     }
