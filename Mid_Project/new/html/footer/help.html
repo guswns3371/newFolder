@@ -5,6 +5,7 @@
 	<title>Help</title>
 	<link rel="stylesheet" href="/Mid_Project/new/css/info_css.css" type="text/css">
 	<link rel="stylesheet" href="/Mid_Project/new/css/info_nav_css.css">
+	<script rel="script" src="/Mid_Project/new/js/help.js"></script>
 </head>
 <body>
 <a class="arrow" href="#top">
@@ -29,25 +30,32 @@
 	<article>
 		<div class="input">
 			<h2>어떻게 도와드릴까요?</h2>
-			<form class = "inputblock">
-				<input type="keyword" placeholder="궁금하신 점을 적어주세요." maxlength = "100" size = "100">
-				<button class="button" type="sunmit" value="submit">전송</button>
+			<form class = "inputblock" method="get" action="https://search.naver.com/search.naver">
+				<div class="search_div">
+					<label for="query" style="display: flex;">
+						<input type="text" id="query" name="query" maxlength="60" placeholder="궁금하신 점을 적어주세요." title="search">
+						<button title="search button" type="submit">
+							<img src="/Mid_Project/new/file/img/search.png" alt="search">
+						</button>
+					</label>
+				</div>
+				<ul class="below">
+					<li><a href="https://search.naver.com/search.naver?query=hot question1">hot question1</a></li>
+					<li><a href="https://search.naver.com/search.naver?query=hot question1">hot question1</a></li>
+					<li><a href="https://search.naver.com/search.naver?query=hot question1">hot question1</a></li>
+					<li><a href="https://search.naver.com/search.naver?query=hot question1">hot question1</a></li>
+				</ul>
 			</form>
-			<ul class="below">
-				<li>hot question1
-				<li>hot question2
-				<li>hot question3
-				<li>hot question4
-			</ul>
+
 		</div>
 		<div>
 			<h2>자주 하는 질문</h2>
 			<details class="question">
 				<summary>Question Topic1</summary>
 				<ul>
-					<li>Question1 - click to search
-					<li>Question2
-					<li>Question3
+					<li onclick="searchQ(this)">Question1 - click to search</li>
+					<li onclick="searchQ(this)">Question2</li>
+					<li onclick="searchQ(this)">Question3</li>
 				</ul>
 			</details>
 			<details class="question">

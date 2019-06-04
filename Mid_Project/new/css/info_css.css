@@ -2,28 +2,30 @@ html,body{
     margin: 0;
     padding: 0;
     height: 100%;
+	background-color: #e9ebee;
 }
-.header{ background-color: #7e7e7e;
+.header{
+	background-color: #ffffff;
     width: 100%;
     height: 10%;
     position: static;
 }
 .article{
-	background-color: plum;
 	margin : auto;
 	width : 60%;
 }
 .article div{
-	background-color: coral;
+	background-color: #ffffff;
 	margin: 5%;
+	padding: 5%;
 }
 .nav{
 	position : absolute;
 	top : 16%;
 	left : 1%;
-	background-color: #e9ebee;
+	background-color: #ffffff;
 	width : 18%;
-	height : 100%;
+	padding-bottom: 5%;
 }
 .arrow{
 	position : fixed;
@@ -44,7 +46,7 @@ html,body{
 }
 .div{
 	font-size : 18px;
-	background-color: coral;
+	background-color: #ffffff;
 	margin: 5%;
 }
 .table{
@@ -54,6 +56,7 @@ html,body{
 	border-right : 1px solid black;
 }
 .summary{
+	cursor: pointer;
 	display : inline;
 	color : blue;
 }
@@ -64,6 +67,7 @@ html,body{
 .question{
 	padding : 10px;
 	border : 1px solid black;
+	cursor: pointer;
 }
 .question li{
 	margin-bottom : 10px;
@@ -73,11 +77,25 @@ html,body{
 }
 .below li{
 	display : inline-block;
-	margin-right : 5%;
-	margin-left : 5%;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	cursor: pointer;
 }
 .inputblock{
-	float : left;
+
+}
+.search_div{
+}
+.search_div input{
+	width: 90%;
+	padding: 2%;
+	border: 2px solid ;
+}
+.search_div img{
+
+	width: 20px;
+	height: 20px;
 }
 .button{
 	float : right;
