@@ -45,11 +45,22 @@ details img{
     height: 100%;
     width: 200px;
 }
+.nav img {
+
+    background-color: #790b21;
+    width: 25px;
+    height: 20px;
+}
+
 /*section_article*/
 .section{
     background-color: #008181;
 }
 .article{
+}
+.article2{
+    background:orange;
+    height:150px;
 }
 .new_arrival_list{
     font-weight: bold;
