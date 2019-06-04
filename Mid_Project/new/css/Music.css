@@ -49,5 +49,20 @@ details img{
 .section{
     background-color: #008181;
 }
+.article{
+}
+.new_arrival_list{
+    font-weight: bold;
+    display: inline-flex;
+    margin: 5px;
+    cursor: pointer;
+}
+#music_list{
+    display: flex;
+    overflow-y: scroll;
+}
+.music_content{
+    margin: 10px;
+}
 /*aside*/
 /*footer*/

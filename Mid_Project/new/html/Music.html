@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link type="text/css" rel="stylesheet" href="../css/Music.css" >
-    <script type="text/javascript" src="../js/Music.js"></script>
+    <base href="/Mid_Project/new/">
+    <link type="text/css" rel="stylesheet" href="css/Music.css" >
+    <title>뮤직</title>
 </head>
-<title>뮤직</title>
+
 <body>
 <header class="header">
     <div class="logo" >
     <label for="search">COPYRIGHT</label>
-    <form style="display:inline;"action="submit">
+    <form style="display:inline;" action="submit">
         <img src="../file/img/Music/start.jpg" height="20px" >
         <input type="search" id="search">
         <input type="submit" value="검색">
@@ -148,7 +149,7 @@
         </tr>
         <tr>
             <td>
-                <b>내 정기결제 현황</b><a href="help.html" style="text-decoration:none; color:black;"><img src="../file/img/현황.jpg"height="5px"width="5px">현황</a>
+                <b>내 정기결제 현황</b><a href="html/footer/help.html" style="text-decoration:none; color:black;"><img src="../file/img/현황.jpg" height="5px" width="5px">현황</a>
             </td>
         </tr>
         <tr>
@@ -158,75 +159,35 @@
         </tr>
         <tr>
             <td>
-                <b>내 등록기기</b> <a href="help.html" style="text-decoration:none; color:black;"><img src="../file/img/설정.jpg"height="5px"width="5px">관리</a>
+                <b>내 등록기기</b> <a href="html/footer/help.html" style="text-decoration:none; color:black;"><img src="../file/img/설정.jpg" height="5px" width="5px">관리</a>
             </td>
         </tr>
         <tr>
             <td>
-                <img src="../file/img/선물.jpg">선물함<a href="help.html" style="text-decoration:none; color:black;"><img src="../file/img/현황.jpg">현황</a>
+                <img src="../file/img/선물.jpg">선물함<a href="html/footer/help.html" style="text-decoration:none; color:black;"><img src="../file/img/현황.jpg">현황</a>
             </td>
         </tr>
         <tr>
             <td>
-                <img src="../file/img/카드.jpg">네이버페이<a href="help.html" style="text-decoration:none; color:black;"><img src="../file/img/현황.jpg">현황</a>
+                <img src="../file/img/카드.jpg">네이버페이<a href="html/footer/help.html" style="text-decoration:none; color:black;"><img src="../file/img/현황.jpg">현황</a>
             </td>
         </tr>
         <tr>
             <td>
-                <img src="../file/img/느낌표.jpg"><a href="help.html" style="text-decoration:none; color:black;">공지사항</a><img src="../file/img/문서.jpg"><a href="#" style="text-decoration:none; color:black;">뮤직 FAQ</a>
+                <img src="../file/img/느낌표.jpg"><a href="html/footer/help.html" style="text-decoration:none; color:black;">공지사항</a><img src="../file/img/문서.jpg"><a href="#" style="text-decoration:none; color:black;">뮤직 FAQ</a>
             </td>
         </tr>
     </table>
 </nav>
 <section class="section">
     <article class="article">
-        <div id="Hint">
-        <form>
-            <input type="button" value="국내최신" onclick="국내최신();">
-        </form>
-        <div class="cont" style="display:inline-block">
-            <img src="../file/img/Music/산들(B1A4).png" title="산들(B1A4)날씨 좋은 날"><p>산들(B1A4)<br>날씨 좋은 날</p>
+        <ul>
+            <li class="new_arrival_list" onclick="국내최신()">국내최신</li>
+            <li class="new_arrival_list" onclick="해외최신()">해외최신</li>
+        </ul>
+        <div id="music_list">
+
         </div>
-        <div class="cont" style="display:inline-block">
-            <img src="../file/img/Music/솔지(EXID).png" title="퍼퓸 OST Part 1"><p>솔지(EXID)<br>퍼퓸 OST Part 1</p>
-        </div>
-        <div class="cont" style="display:inline-block">
-            <img src="../file/img/Music/준(june).png" title="준(JUNE)"><p>준(JUNE)<br>Today's</p>
-        </div>
-        <div class="cont" style="display:inline-block">
-            <img src="../file/img/Music/9와숫자들.png" title="9와숫자들"><p>9와숫자들<br>서울시 여러분 Part 1</p>
-        </div>
-        <div class="cont" style="display:inline-block">
-            <img src="../file/img/Music/명재a.k.aMJ.png" title="명재a.k.aMJ"><p>명재 a.k.a MJ<br>blu</p>
-        </div>
-        <div class="cont" style="display:inline-block">
-            <img src="../file/img/Music/우주히피.png" title="우주히피"><p>우주히피<br>Rich</p>
-        </div>
-        <div class="cont" style="display:inline-block">
-            <img src="../file/img/Music/마레.png" title="무슨 소용이 있나요"><p>마레<br>무슨 소용이 있나요</p>
-        </div>
-        <div class="cont" style="display:inline-block">
-            <img src="../file/img/Music/바람이분다.png" title="바람이분다"><p>DAWN.A(던아)<br>바람이 분다 OST Part 1</p>
-        </div>
-        <div class="cont" style="display:inline-block">
-            <img src="../file/img/Music/최예근.png" title="초면에 사랑합니다 OST Part 9"><p>최예근<br>초면에 사랑합니다 OST Part 9</p>
-        </div>
-        <div class="cont" style="display:inline-block">
-            <img src="../file/img/Music/오타르(OTAR).png" title="오늘의 아름다움"><p>오타르(OTAR)<br>오늘의 아름다움</p>
-        </div>
-        <div class="cont" style="display:inline-block">
-            <img src="../file/img/Music/달탐사소년단.png" title="달탐사소년단"><p>달탐사소년단<br>Reset</p>
-        </div>
-        <div class="cont" style="display:inline-block">
-            <img src="../file/img/Music/지진석.png" title="지진석"><p>지진석<br>Good Night</p>
-        </div>
-        <div class="cont" style="display:inline-block">
-            <img src="../file/img/Music/오드.png" title="오드"><p>오드(ode)<br>to youth</p>
-        </div>
-        <div class="cont" style="display:inline-block">
-            <img src="../file/img/Music/반엘.png" title="반엘(VAN EL)"><p>반엘(VAN EL)<br>갈비뼈</p>
-        </div>
-    </div>
     </article>
 </section>
 <aside class="aside"></aside>
@@ -250,6 +211,6 @@
 <div >
 
 </div>
-
+<script type="text/javascript" src="js/Music.js"></script>
 </body>
 </html>
