@@ -34,24 +34,10 @@ html,body{
 	float : left;
 	margin : 1%;
 }
-.map{
-	text-align : center;
-	transform : scale(1,1);
-	transition : all 0.5s ease-in-out;
-}
-.map:hover{
-	transform : scale(2,2);
-}
 .div{
 	font-size : 18px;
 	background-color: coral;
 	margin: 5%;
-}
-.table{
-	border : 1px solid;
-}
-.table th{
-	border-right : 1px solid black;
 }
 .summary{
 	display : inline;
@@ -81,4 +67,29 @@ html,body{
 }
 .button{
 	float : right;
+}
+.content{
+	transform : scale(1,1);
+	transition : all 0.5s ease-in-out;
+	position : relative;
+	left : 20%;
+	display : inline-block;
+	padding : 30px;
+	padding-top : 40px;
+	padding-bottom : 40px;
+	border : 5px solid red;
+	border-radius : 50px;
+}
+.content:hover{
+	background-color : white;
+	transform : scale(1.3,1.3);
+	cursor : pointer;
+}
+.map{
+	text-align : center;
+	transform : scale(1,1);
+	transition : all 0.5s ease-in-out;
+}
+.map:hover{
+	transform : scale(2,2);
 }
