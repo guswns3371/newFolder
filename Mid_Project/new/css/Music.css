@@ -1,10 +1,53 @@
+/*header*/
+.header{
+    background-color: #81574f;
+    display: block;
+}
 .logo{
-    background-color:#001100;
+    background-color:#7b8688;
     font-size:20px;
     padding:12px;
-    height:20px;
+    /*height:100px;*/
 }
 details img{
     width: 5px;
     height: 5px;
 }
+.logo ul{
+    display: block;
+    padding: 0;
+    margin: 10px 0 0;
+}
+.logo li{
+    display: inline-flex;
+    cursor: pointer;
+    background-color: #008181;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.banner{
+ background-color: #abcc8f;
+    width: 100%;
+}
+.banner_content{
+    width: 20%;
+    margin: 0 auto;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*nav*/
+.nav{
+    background-color: #cc8739;
+    float: left;
+    height: 100%;
+    width: 200px;
+}
+/*section_article*/
+.section{
+    background-color: #008181;
+}
+/*aside*/
+/*footer*/
