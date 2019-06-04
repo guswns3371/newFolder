@@ -1,0 +1,111 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+	background-color: #e9ebee;
+}
+.header{
+	background-color: #ffffff;
+    width: 100%;
+    height: 10%;
+    position: static;
+}
+.article{
+	margin : auto;
+	width : 800px;
+}
+.article div{
+	background-color: #ffffff;
+	margin: 5%;
+	padding: 5%;
+}
+.nav{
+	position : absolute;
+	top : 16%;
+	left : 1%;
+	background-color: #ffffff;
+	width : 200px;
+	padding-bottom: 30px;
+}
+.arrow{
+	position : fixed;
+	right : 10px;
+	bottom : 10px;
+}
+.logo{
+	float : left;
+	margin : 1%;
+}
+.div{
+	font-size : 18px;
+	background-color: #ffffff;
+	margin: 5%;
+}
+.summary{
+	cursor: pointer;
+	display : inline;
+	color : blue;
+}
+.details{
+	padding : 30px;
+	border : 1px solid black;
+}
+.question{
+	padding : 10px;
+	border : 1px solid black;
+	cursor: pointer;
+}
+.question li{
+	margin-bottom : 10px;
+}
+.input{
+	text-align : center;
+}
+.below li{
+	display : inline-block;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	cursor: pointer;
+}
+.inputblock{
+
+}
+.search_div{
+}
+.search_div input{
+	width: 90%;
+	padding: 2%;
+	border: 2px solid ;
+}
+.search_div img{
+
+	width: 20px;
+	height: 20px;
+}
+.button{
+	float : right;
+}
+.content{
+	transform : scale(1,1);
+	transition : all 0.5s ease-in-out;
+	position : relative;
+	display : inline-block;
+	padding-top : 40px;
+	padding-bottom : 40px;
+	border : 5px solid red;
+	border-radius : 50px;
+}
+.content:hover{
+	background-color : white;
+	transform : scale(1.3,1.3);
+	cursor : pointer;
+}
+.map{
+	text-align : center;
+	transform : scale(1,1);
+	transition : all 0.8s ease-in-out;
+}
+.map:hover{
+	transform : scale(2,2);
+}

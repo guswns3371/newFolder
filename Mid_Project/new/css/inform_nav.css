@@ -1,0 +1,23 @@
+.M_on{
+    font : 25px solid brightwhite;
+    background : yellow;
+    border : 1px solid black;
+}
+.delli{
+    list-style-type : none;
+    padding-left : 15px;
+    padding-right : 15px;
+}
+.delli li{
+    font : 25px solid black;
+    border : 1px solid black;
+}
+.delli a{
+    text-decoration : none;
+    color : black;
+}
+.nav h3{
+    margin-left : 5px;
+    font : 30px solid black;
+    margin-bottom: 0;
+}
