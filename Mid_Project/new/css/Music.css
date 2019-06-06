@@ -1,35 +1,33 @@
+/*body*/
+body{
+    background-color:#ffffff;
+}
 /*header*/
 .header{
-    background-color: #81574f;
+    background-color: #e9ebee;
     display: block;
 }
 .logo{
-    background-color:#7b8688;
     font-size:20px;
     padding:12px;
     /*height:100px;*/
-}
-.logo img{
-
 }
 details img{
     width: 5px;
     height: 5px;
 }
 .logo ul{
-    display: block;
+    display: inline-block;
     padding: 0;
     margin: 10px 0 0;
 }
 .logo li{
-    display: inline-flex;
+    display: inline;
     cursor: pointer;
-    background-color: #008181;
     padding-right: 10px;
     padding-left: 10px;
 }
 .banner{
- background-color: #abcc8f;
     width: 100%;
 }
 .banner_content{
@@ -43,7 +41,7 @@ details img{
 
 /*nav*/
 .nav{
-    background-color: #cc8739;
+    background-color: #e9ebee;
     float: left;
     height: 100%;
     width: 200px;
@@ -56,7 +54,7 @@ details img{
 
 /*section_article*/
 .section{
-    background-color: #008181;
+    background-color: #e9ebee;
 }
 .article{
     margin:0;
@@ -66,8 +64,6 @@ details img{
     display:inline-block;
     margin:0;
     padding:0;
-    height:100px;
-    width:330px;
 }
 #commercial_ul{
     padding:0;
@@ -78,14 +74,8 @@ details img{
     margin:0;
     padding:0;
 }
-.explaination{
-    font-weight: bold;
-    display: block;
-    margin: 5px;
-}
 .music_video_box{
     margin: 10px;
-
 }
 #music_video{
     display:flex;
@@ -103,7 +93,7 @@ details img{
     overflow: scroll;
 }
 .music_content{
-    margin: 10px;
+    margin: 0px;
 }
 #left{
     cursor:pointer;
@@ -111,7 +101,7 @@ details img{
 /*aside*/
 /*footer*/
 .footer{
-    background-color:#e9ebee;
+    background-color: #e9ebee;
 }
 #footer_table > th{
     display:inline-flex;
