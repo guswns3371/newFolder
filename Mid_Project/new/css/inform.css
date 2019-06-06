@@ -19,6 +19,9 @@ html,body{
 	margin: 5%;
 	padding: 5%;
 }
+.below li{
+	text-decoration: #81574f underline;
+}
 .nav{
 	position : absolute;
 	top : 16%;
@@ -57,6 +60,8 @@ html,body{
 }
 .question li{
 	margin-bottom : 10px;
+	text-decoration: black underline;
+	font-weight: bold;
 }
 .input{
 	text-align : center;
