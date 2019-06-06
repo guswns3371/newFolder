@@ -30,10 +30,10 @@ details img{
     width: 100%;
 }
 .banner_content{
-    width: 20%;
-    margin: 0 auto;
-    height: 100px;
-    font-size: 30px;
+    width: 50%;
+    margin: 0;
+    height: auto;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
 }
@@ -44,6 +44,7 @@ details img{
     float: left;
     height: 100%;
     width: 200px;
+
 }
 .nav img {
 
@@ -57,10 +58,39 @@ details img{
     background-color: #008181;
 }
 .article{
+    margin:0px;
 }
-.article2{
-    background:orange;
-    height:150px;
+
+.commercial_content{
+    display:inline-block;
+    margin:0;
+    padding:0;
+    height:100px;
+    width:330px;
+}
+#commercial_ul{
+    padding:0;
+    font-size:10px;
+}
+#commercial_list{
+    display:inline-flex;
+    margin:0;
+    padding:0;
+    height:100px;
+    width:330px;
+}
+.explaination{
+    font-weight: bold;
+    display: inline-flex;
+    margin: 5px;
+}
+.music_video_box{
+    margin: 10px;
+
+}
+#music_video{
+    display:flex;
+    overflow:scroll;
 }
 .new_arrival_list{
     font-weight: bold;
@@ -70,10 +100,19 @@ details img{
 }
 #music_list{
     display: flex;
-    overflow-y: scroll;
+    overflow: scroll;
 }
 .music_content{
     margin: 10px;
 }
+#left{
+    cursor:pointer;
+}
 /*aside*/
 /*footer*/
+.footer{
+    background-color:#e9ebee;
+}
+#footer_table > th{
+    display:inline-flex;
+}
