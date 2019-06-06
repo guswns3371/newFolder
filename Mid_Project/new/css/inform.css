@@ -83,6 +83,7 @@ html,body{
 }
 .content{
 	transform : scale(1,1);
+	background-color : white;
 	transition : all 0.5s ease-in-out;
 	position : relative;
 	display : inline-block;
@@ -90,6 +91,7 @@ html,body{
 	padding-bottom : 40px;
 	border : 5px solid red;
 	border-radius : 50px;
+	cursor: pointer;
 }
 .content:hover{
 	background-color : white;
@@ -115,7 +117,6 @@ html,body{
 }
 .introduce{
 	font : 20px bold black;
-	font-weight : bold;
 }
 .introduce li{
 	margin-top : 50px;
