@@ -1,6 +1,15 @@
 {
     domestic();
-    showimg();
+    const commercial_list = document.getElementById("commercial_list");
+    var str="";
+    for(let c=0;c<3;c++)
+    {
+        str+="          <div class=\"commercial_content\">\n"+
+            "    <img src=\"file/img/Music/commercial("+(c+1)+").png \"height=\"150px\" width=\"300px\">"+
+            "       </div>";
+    }
+    commercial_list.innerHTML="";
+    commercial_list.innerHTML=str;
     Music_domestic();
 }
 
@@ -16,7 +25,7 @@ function domestic()
 
     for (let i=0; i<11; i++ ){
         str += "        <div class=\"music_content\" >\n" +
-            "            <img src=\"file/img/Music/domestic_music ("+(i+1)+").png\" ><p>"+music_artist[i]+"<br>"+music_name[i]+"</p>\n" +
+            "            <img src=\"file/img/Music/domestic_music ("+(i+1)+").png\" alt='domestic music'><p>"+music_artist[i]+"<br>"+music_name[i]+"</p>\n" +
             "        </div>";
     }
     var music_list = document.getElementById("music_list");
@@ -32,7 +41,7 @@ function foreign() {
 
     for (let a=0; a<7; a++ ){
         str += "        <div class=\"music_content\" >\n" +
-            "            <img src=\"file/img/Music/foreign_music ("+(a+1)+").png\" ><p>"+music_artist2[a]+"<br>"+music_name2[a]+"</p>\n" +
+            "            <img src=\"file/img/Music/foreign_music ("+(a+1)+").png\"  alt='foreign musics'><p>"+music_artist2[a]+"<br>"+music_name2[a]+"</p>\n" +
             "        </div>";
     }
     var music_list = document.getElementById("music_list");
@@ -40,16 +49,25 @@ function foreign() {
     music_list.innerHTML =str;
 }
 function showimg(){
-    var str="";
-    for(let c=0;c<3;c++)
-    {
-        str+="          <div class=\"commercial_content\">\n"+
-            "    <img src=\"file/img/Music/commercial("+(c+1)+").png \"height=\"150px\" width=\"300px\">"+
-            "       </div>";
+    const show = document.getElementById("commercial_show");
+    const commercial_list = document.getElementById("commercial_list");
+    const  show_text = show.innerHTML;
+    if (show_text==="숨기기"){
+        commercial_list.style.display = 'none';
+        show.innerHTML = "펼치기";
+    } else if (show_text === "펼치기"){
+        commercial_list.style.display= ' inline-block';
+        var str="";
+        for(let c=0;c<3;c++)
+        {
+            str+="          <div class=\"commercial_content\">\n"+
+                "    <img src=\"file/img/Music/commercial("+(c+1)+").png \" alt='commercial' height=\"150px\" width=\"300px\">"+
+                "       </div>";
+        }
+        commercial_list.innerHTML="";
+        commercial_list.innerHTML=str;
+        show.innerHTML="숨기기";
     }
-    var commercial_list=document.getElementById("commercial_list");
-    commercial_list.innerHTML="";
-    commercial_list.innerHTML=str;
 }
 function displaynone(){
     var commercial_list=document.getElementById("commercial_list");
@@ -63,7 +81,7 @@ function Music_domestic(){
     for(let i=0;i<5;i++)
     {
         str += "<div class=\"music_video_box\" >\n" +
-            "            <img src=\"file/img/Music/music_video("+(i+1)+").png\" ><p>"+music_artist[i]+"<br>"+music_name[i]+"</p>\n" +
+            "            <img src=\"file/img/Music/music_video("+(i+1)+").png\" alt='music video' ><p>"+music_artist[i]+"<br>"+music_name[i]+"</p>\n" +
             "</div>";
     }
     const music_video = document.getElementById("music_video");
@@ -77,7 +95,7 @@ function Music_foreign(){
     for(let i=0;i<5;i++)
     {
         str += "<div class=\"music_video_box\" >\n" +
-            "            <img src=\"file/img/Music/music_video_foreign("+(i+1)+").png\" ><p>"+music_artist[i]+"<br>"+music_name[i]+"</p>\n" +
+            "            <img src=\"file/img/Music/music_video_foreign("+(i+1)+").png\" alt='domestic music video' ><p>"+music_artist[i]+"<br>"+music_name[i]+"</p>\n" +
             "</div>";
     }
     var music_video_foreign=document.getElementById("music_video");
