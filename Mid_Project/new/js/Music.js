@@ -2,7 +2,6 @@
     domestic();
 }
 
-
 function domestic()
 {
     var music_artist = ['산들(B1A4)','솔지(EXID)','준(JUNE)','9와숫자들',
