@@ -68,11 +68,6 @@ html,body{
 	padding: 5px;
 	cursor: pointer;
 }
-.inputblock{
-
-}
-.search_div{
-}
 .search_div input{
 	width: 90%;
 	padding: 2%;
@@ -108,4 +103,21 @@ html,body{
 }
 .map:hover{
 	transform : scale(2,2);
+}
+#Hcon{
+	display : none;
+}
+#Scon{
+	display : none;
+}
+#Ycon{
+	display : none;
+}
+.introduce{
+	font : 20px bold black;
+	font-weight : bold;
+}
+.introduce li{
+	margin-top : 50px;
+	margin-bottom : 50px;
 }
