@@ -14,7 +14,6 @@ function domestic()
         '초면에 사랑합니다 OST Part 9','오늘의 아름다움','Reset'];
     var str="";
 
-
     for (let i=0; i<11; i++ ){
         str += "        <div class=\"music_content\" >\n" +
             "            <img src=\"file/img/Music/domestic_music ("+(i+1)+").png\" ><p>"+music_artist[i]+"<br>"+music_name[i]+"</p>\n" +
