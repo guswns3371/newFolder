@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <base href="/Mid_Project/new/">
+    <link rel="stylesheet" type="text/css" href="css/root.css">
+    <link rel="stylesheet" type="text/css" href="css/intro.css">
+    <script>
+        function memberInfo(obj) {
+            const who = obj.innerText;
+            const joon = document.getElementById("joon");
+            const kyu = document.getElementById("kyu");
+            const sup = document.getElementById("sup");
+            switch (who) {
+                case "하현준":
+                    joon.style.fontWeight='bold';
+                    kyu.style.fontWeight='normal';
+                    sup.style.fontWeight='normal';
+
+                    joon.style.backgroundColor = '#d1d1d1';
+                    kyu.style.backgroundColor = '#9d9d9d';
+                    sup.style.backgroundColor = '#9d9d9d';
+                    break;
+                case "윤석규":
+                    joon.style.fontWeight='normal';
+                    kyu.style.fontWeight='bold';
+                    sup.style.fontWeight='normal';
+
+                    joon.style.backgroundColor = '#9d9d9d';
+                    kyu.style.backgroundColor = '#d1d1d1';
+                    sup.style.backgroundColor = '#9d9d9d';
+                    break;
+                case "신홍섭":
+                    joon.style.fontWeight='normal';
+                    kyu.style.fontWeight='normal';
+                    sup.style.fontWeight='bold';
+
+                    joon.style.backgroundColor = '#9d9d9d';
+                    kyu.style.backgroundColor = '#9d9d9d';
+                    sup.style.backgroundColor = '#d1d1d1';
+                    break;
+            }
+        }
+    </script>
+</head>
+<body>
+<header class="header">
+    <h1>
+        웹 프로그래밍 팀 프로젝트
+    </h1>
+    <a href="html/main.html"><img src="file/img/logo.png" alt="logo" title="메인 홈으로 가기"></a>
+
+</header>
+<div class="nav_section">
+    <nav class="nav">
+        <h3>조원 정보</h3>
+        <ul>
+            <li onclick="memberInfo(this)">하현준</li>
+            <li onclick="memberInfo(this)">신홍섭</li>
+            <li onclick="memberInfo(this)">윤석규</li>
+        </ul>
+        <h4>페이지 목록</h4>
+        <ul>
+            <li><a href="html/main.html" target="myframe">main.html</a></li>
+            <li><a href="html/login_logout/login.html" target="myframe">login.html</a></li>
+            <li><a href="html/Music.html" target="myframe">Music.html</a></li>
+            <li><a href="html/footer/help.html" target="myframe">help.html</a></li>
+            <li><a href="html/footer/inform.html" target="myframe">inform.html</a></li>
+            <li><a href="html/footer/rights.html" target="myframe">rights.html</a></li>
+            <li><a href="html/footer/terms.html" target="myframe">terms.html</a></li>
+        </ul>
+    </nav>
+    <section class="section">
+        <article class="article">
+            <div class="member_info">
+                <h3>조원정보</h3>
+                <ul id="joon">
+                    <li>성명 : 하현준</li>
+                    <li>소속 : 컴퓨터공학과</li>
+                    <li>학번 : 15109379</li>
+                    <li>주소 : 서울시 노원구 중계본동</li>
+                    <li>휴대폰 : 010-8665-5737</li>
+                    <li>E-mail : guswns3371@gmail.com</li>
+                </ul>
+                <ul id="kyu">
+                    <li>성명 : 윤석규</li>
+                    <li>소속 : 전자 IT 미디어공학과</li>
+                    <li>학번 : 18101524</li>
+                    <li>주소 : 경기도 의정부시 신곡동</li>
+                    <li>휴대폰 : 010-7351-4551</li>
+                    <li>E-mail : 90531sky@gmail.com</li>
+                </ul>
+                <ul id="sup">
+                    <li>성명 : 신홍섭</li>
+                    <li>소속 : 컴퓨터공학과</li>
+                    <li>학번 : 14109350</li>
+                    <li>주소 : 서울시 노원구 상계동</li>
+                    <li>휴대폰 : 010-4362-9171</li>
+                    <li>E-mail : hongseopshin350@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="page_list">
+                <h4>페이지 미리보기</h4>
+                <a href="html/main.html">메인 페이지로 가기</a>
+                <iframe name="myframe" src="html/main.html">
+                </iframe>
+            </div>
+        </article>
+    </section>
+</div>
+
+
+</body>
+</html>
