@@ -28,15 +28,18 @@ details img{
     padding-left: 10px;
 }
 .banner{
-    width: 100%;
-}
-.banner_content{
-    width: 50%;
     margin: 0;
+    padding: 20px;
     height: auto;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
+    border-top: #7b8688 solid 1px;
+    border-bottom: #7b8688 solid 1px;
+}
+.banner a{
+    text-decoration: none;
+    color: black;
 }
 
 /*nav*/
@@ -45,16 +48,25 @@ details img{
     float: left;
     height: 100%;
     width: 200px;
-
+    border-right: #7b8688 solid 1px;
+    margin-right: 20px;
+    padding: 10px;
 }
 .nav img {
     width: 25px;
     height: 20px;
 }
+.nav details{
+    margin-bottom: 8px;
+}
+.nav table{
+    margin-bottom: 10px;
+}
 
 /*section_article*/
 .section{
     background-color: #e9ebee;
+    padding: 15px;
 }
 .article{
     margin:0;
@@ -72,7 +84,7 @@ details img{
 #commercial_list{
     display:inline-flex;
     margin:0;
-    padding:0;
+    padding:10px;
 }
 .music_video_box{
     margin: 10px;
@@ -91,9 +103,11 @@ details img{
 #music_list{
     display: flex;
     overflow: scroll;
+
 }
 .music_content{
-    margin: 0px;
+    margin: 0;
+    padding: 5px;
 }
 #left{
     cursor:pointer;
@@ -102,7 +116,11 @@ details img{
 /*footer*/
 .footer{
     background-color: #e9ebee;
+    margin-top: 5px;
+    padding: 10px;
 }
-#footer_table > th{
-    display:inline-flex;
+#footer_table li{
+    display:inline-block;
+    padding: 5px;
+    cursor: pointer;
 }
